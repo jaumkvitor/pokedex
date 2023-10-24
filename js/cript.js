@@ -1,3 +1,21 @@
+const button = document.getElementById("button-pokedex");
+const conteudoOculto = document.getElementById("conteudo-oculto");
+const pokehide = document.getElementById("pokedex__full");
+
+button.addEventListener("click", function () {
+    if (conteudoOculto.style.display === "none" || conteudoOculto.style.display === "") {
+        conteudoOculto.style.display = "block";
+        button.style.top = "400px"; 
+        button.style.left = "400px"; 
+        pokehide.style.display = "none";
+    } else {
+        conteudoOculto.style.display = "none";
+        button.style.top = "400px"; 
+        button.style.left = "900px"; 
+        pokehide.style.display = "block";
+    }
+});
+
 const pokemonName = document.querySelector('.pokemon__name');
 const pokemonNumber = document.querySelector('.pokemon__number');
 const pokemonImage = document.querySelector('.pokemon__image');

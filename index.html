@@ -13,30 +13,36 @@
 
 </head>
 <body>
-    <main>
-        <img src="#" alt="pokemon" class="pokemon__image">
-        <h1 class="pokemon__data">
-            <span class="pokemon__number"></span> 
-            <span class="pokemon__name"></span>
-            <div class="pokemon__types">
-                <span class="pokemon__typeone"></span>
-                <span class="pokemon__typetwo"></span>
-            </div>
-         </h1>
-<form class="form">
-  <input
-    type="search"
-    class="input__search"
-    placeholder="Name or Number"
-    required
-    />
-</form>
-<div class="imagepainel"></div>
-<div class="buttons">
-  <button class="button btn-prev">&lt; Previous</button>
-  <button class="button btn-next">Next &gt;</button>
-</div>
-    </main>
-    
+    <img src="/pokeicon/forest.jpg" alt="forest" class="pokemon__forest">
+    <button id="button-pokedex">Open</button>
+    <div id="conteudo-oculto" class="oculto">    
+        <img src="/pokeicon/full.png" id="pokedex__full" alt="pokedexfull">   
+        <main>
+            <img src="/pokeicon/pokedexopen.png" alt="pokedexopen" id="pokedex__open">
+            <img src="#" alt="pokemon" class="pokemon__image">
+            <h1 class="pokemon__data">
+                <span class="pokemon__number"></span> 
+                <span class="pokemon__name"></span>
+                <div class="pokemon__types">
+                    <span class="pokemon__typeone"></span>
+                    <span class="pokemon__typetwo"></span>
+                </div>
+            </h1>
+            <form class="form">
+                <input
+                     type="search"
+                     class="input__search"
+                     placeholder="Name or Number"
+                     required
+                />
+           </form>
+           <div class="imagepainel"></div>
+           <div class="buttons">
+               <button class="button btn-prev">&lt; Previous</button>
+               <button class="button btn-next">Next &gt;</button>
+           </div>
+        </main>
+    </div>
+
 </body>
 </html>
