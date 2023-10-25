@@ -5,8 +5,8 @@ const pokehide = document.getElementById("pokedex__full");
 button.addEventListener("click", function () {
     if (conteudoOculto.style.display === "none" || conteudoOculto.style.display === "") {
         conteudoOculto.style.display = "block";
-        button.style.top = "400px"; 
-        button.style.left = "400px"; 
+        button.style.top = "655px"; 
+        button.style.left = "900px"; 
         pokehide.style.display = "none";
     } else {
         conteudoOculto.style.display = "none";
